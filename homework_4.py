@@ -19,7 +19,7 @@ while True:
     else:
         print('Введите только цифры!')
 
-print(f'Финансовы! результат - прибыль. Ее величина: {int(income) - int(cost)}',
+print(f'Финансовый результат - прибыль. Ее величина: {int(income) - int(cost)}',
       f'Рентабельность выручки = {(int(income) - int(cost)) / int(income)}',
       f'Прибыль фирмы в расчете на одного сотрудника = {(int(income) - int(cost)) / int(staff)}', sep='\n')
 
